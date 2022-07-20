@@ -1,3 +1,3 @@
-## An 8x64 memory array implemntation using skywater 130nm technology
+## An 8x64 memory array implementation using skywater 130nm technology
 
  

@@ -33,11 +33,10 @@ module uut_test_tb;
     reg [7:0] dat;
     reg [2:0] ad;
     reg rd_en,wr_en;
-	//wire [2:0] wbs_dat_o;
+	
 
 
 
-   //assign  mprj_io[9:7]=wbs_dat_o;
     assign mprj_io[15:8]=dat;
     assign mprj_io[7:5]=ad;
     assign mprj_io[0]=rd_en;

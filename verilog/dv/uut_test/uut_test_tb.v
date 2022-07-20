@@ -43,9 +43,7 @@ module uut_test_tb;
     assign mprj_io[0]=rd_en;
     assign mprj_io[3]=wr_en;
 
-	// External clock is used by default.  Make this artificially fast for the
-	// simulation.  Normally this would be a slow clock and the digital PLL
-	// would be the fast clock.
+	.
 
 	always #12.5 clock <= (clock === 1'b0);
 
@@ -73,7 +71,7 @@ module uut_test_tb;
 	end
 
 	initial begin
-        // set all buttons
+        
           wr_en<=1'b1;
           rd_en<=1'b0;
          dat <= 8'b11111010;
@@ -93,12 +91,6 @@ module uut_test_tb;
         #500;
         
         
-         //wbs_dat_i <= 8'b11011111;
-        //wbs_adr_i<=8'b10111010;
-        //#5000;
-        //wbs_dat_i <= 8'b11111111;
-        ////wbs_adr_i<= 8'b10101010;
-        //#5000;
         
         
 		

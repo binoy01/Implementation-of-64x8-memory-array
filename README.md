@@ -4,6 +4,12 @@
 This project is  an implementation of a trivial  memory array . User can read from and write into the memory array via GPIO pins.
 
 
+### Simulation waveform
+![simu_out](https://user-images.githubusercontent.com/96823533/179954650-16b7d835-126c-445f-b5e6-b71b92c17576.JPG)
+
+
+
+
 
 ### Layout of the module
 

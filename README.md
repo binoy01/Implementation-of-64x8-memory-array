@@ -25,7 +25,7 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 
 
-### Efabless submission link
+### Efabless link
 
  
  

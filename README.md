@@ -21,3 +21,13 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 ![layout of module integrated to wrapper](https://user-images.githubusercontent.com/96823533/179953849-c11e4e8f-2eea-464f-a106-41f825907598.jpeg)
 
+
+
+
+
+### Efabless submission link
+
+ 
+ 
+ https://platform.efabless.com/projects/1203
+

@@ -4,7 +4,13 @@
 This project is  an implementation of a trivial  memory array . User can read from and write into the memory array via GPIO pins.
 
 
-### Block diagram of the module
+### Blackbox view of the module
+
+![block1](https://user-images.githubusercontent.com/96823533/179964501-86f598ee-19b5-47f7-96ec-50be2f46da71.JPG)
+
+
+
+
 
 
 

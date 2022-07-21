@@ -6,6 +6,7 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 ### Blackbox view of the module
 
+![abstract](https://user-images.githubusercontent.com/96823533/180166328-ada5e887-755c-4694-bb2c-e056db1a77d6.JPG)
 
 
 

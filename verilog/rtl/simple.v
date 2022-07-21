@@ -80,7 +80,7 @@ module simple #(
     
     wire [7:0] rout_data; 
     wire [7:0] wdata;
-    wire [2:0] addr;
+    wire [5:0] addr;
     //wire [BITS-1:0] count;
 
     //wire valid;
@@ -100,7 +100,7 @@ module simple #(
     assign wr_en=io_in[3];
     
     assign wdata=io_in[15:8];
-    assign addr=io_in[7:5];
+    assign addr=io_in[30:25];
     //assign addr= wbs_adr_i;
     //assign wbs_dat_i=wdata;
    
@@ -149,7 +149,7 @@ module mem_block #(
     parameter BITS =32
 )(
     input clk,
-    input [2:0] addr,
+    input [5:0] addr,
     input rd_en,
     input wr_en,
     //input reset,

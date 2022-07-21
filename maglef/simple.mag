@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1658299083
+timestamp 1658383043
 << nwell >>
 rect 1066 116677 178886 117243
 rect 1066 115589 178886 116155
@@ -349,6 +349,9 @@ rect 127088 2128 127408 117552
 rect 142448 2128 142768 117552
 rect 157808 2128 158128 117552
 rect 173168 2128 173488 117552
+<< obsm4 >>
+rect 148179 44507 157728 100741
+rect 158208 44507 161125 100741
 << labels >>
 rlabel metal2 s 3698 119200 3754 120000 6 io_in[0]
 port 1 nsew signal input
@@ -596,8 +599,8 @@ port 111 nsew signal output
 string FIXED_BBOX 0 0 180000 120000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 6734454
-string GDS_FILE /media/bn/0FDFA1F87CD9FC5A/Implementation-of-8x64-memory-array/openlane/simple/runs/22_07_20_12_04/results/signoff/simple.magic.gds
-string GDS_START 315570
+string GDS_END 12761870
+string GDS_FILE /media/bn/0FDFA1F87CD9FC5A/Implementation-of-8x64-memory-array/openlane/simple/runs/22_07_21_11_23/results/signoff/simple.magic.gds
+string GDS_START 452722
 << end >>
 

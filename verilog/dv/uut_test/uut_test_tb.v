@@ -31,21 +31,18 @@ module uut_test_tb;
     wire gpio;
     wire[37:0] mprj_io;
     reg [7:0] dat;
-    reg [2:0] ad;
+    reg [5:0] ad;
     reg rd_en,wr_en;
-	//wire [2:0] wbs_dat_o;
+	
 
 
 
-   //assign  mprj_io[9:7]=wbs_dat_o;
     assign mprj_io[15:8]=dat;
-    assign mprj_io[7:5]=ad;
+    assign mprj_io[30:25]=ad;
     assign mprj_io[0]=rd_en;
     assign mprj_io[3]=wr_en;
 
-	// External clock is used by default.  Make this artificially fast for the
-	// simulation.  Normally this would be a slow clock and the digital PLL
-	// would be the fast clock.
+	
 
 	always #12.5 clock <= (clock === 1'b0);
 
@@ -73,33 +70,27 @@ module uut_test_tb;
 	end
 
 	initial begin
-        // set all buttons
+       
           wr_en<=1'b1;
           rd_en<=1'b0;
          dat <= 8'b11111010;
-         ad<=3'b001;
+         ad<=6'b111001;
          #500;
          wr_en<=1;
          rd_en<=1'b0;
          dat <= 8'b11101010;
-         ad<=3'b011;
+         ad<=6'b011000;
          
         #500;
         
         rd_en<=1'b1;
         wr_en<=1'b0;
-        ad<=3'b001;
+        ad<=6'b111001;
         dat <= 8'b01101010;
         #500;
         
         
-         //wbs_dat_i <= 8'b11011111;
-        //wbs_adr_i<=8'b10111010;
-        //#5000;
-        //wbs_dat_i <= 8'b11111111;
-        ////wbs_adr_i<= 8'b10101010;
-        //#5000;
-        
+       
         
 		
 		`ifdef GL

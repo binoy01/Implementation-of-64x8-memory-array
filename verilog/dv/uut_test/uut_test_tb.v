@@ -42,11 +42,7 @@ module uut_test_tb;
     assign mprj_io[0]=rd_en;
     assign mprj_io[3]=wr_en;
 
-<<<<<<< HEAD
-	
-=======
-	.
->>>>>>> 9f5f727fcd1e747ae7ccd838b55f873f63baaf98
+
 
 	always #12.5 clock <= (clock === 1'b0);
 
@@ -74,11 +70,7 @@ module uut_test_tb;
 	end
 
 	initial begin
-<<<<<<< HEAD
-       
-=======
-        
->>>>>>> 9f5f727fcd1e747ae7ccd838b55f873f63baaf98
+
           wr_en<=1'b1;
           rd_en<=1'b0;
          dat <= 8'b11111010;
@@ -98,12 +90,7 @@ module uut_test_tb;
         #500;
         
         
-<<<<<<< HEAD
-       
-=======
-        
->>>>>>> 9f5f727fcd1e747ae7ccd838b55f873f63baaf98
-        
+
 		
 		`ifdef GL
 	    	$display("Monitor: Test 1 Mega-Project IO (GL) Passed");

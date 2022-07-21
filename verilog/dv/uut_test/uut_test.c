@@ -19,27 +19,18 @@
 #include  <defs.h>
 #include  <stub.c>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 9f5f727fcd1e747ae7ccd838b55f873f63baaf98
 
 
 void main()
 {
-<<<<<<< HEAD
+
 	
 
 	reg_spimaster_control = 0xa002;	
                                         
 
-=======
 
-	reg_spimaster_control = 0xa002;	
-                                        
-
->>>>>>> 9f5f727fcd1e747ae7ccd838b55f873f63baaf98
-	
 	
 	
 	
@@ -106,10 +97,5 @@ void main()
 	reg_mprj_xfer = 1;
 	while (reg_mprj_xfer == 1);
 
-<<<<<<< HEAD
-    
-=======
-   
 
->>>>>>> 9f5f727fcd1e747ae7ccd838b55f873f63baaf98
 }

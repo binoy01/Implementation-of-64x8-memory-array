@@ -6,7 +6,6 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 ### Blackbox view of the module
 
-![block1](https://user-images.githubusercontent.com/96823533/179964501-86f598ee-19b5-47f7-96ec-50be2f46da71.JPG)
 
 
 
@@ -17,7 +16,7 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 
 ### Simulation waveform
-![simu_out](https://user-images.githubusercontent.com/96823533/179954650-16b7d835-126c-445f-b5e6-b71b92c17576.JPG)
+
 
 
 

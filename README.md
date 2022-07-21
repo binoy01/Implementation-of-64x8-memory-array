@@ -23,11 +23,14 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 
 ### Layout of the module
+![layout of module](https://user-images.githubusercontent.com/96823533/180160315-586280aa-4d0c-4268-942c-4cc1dac7d414.jpeg)
+
 
 
  
 
 ### Layout of the wrapper
+![layout of wrapper](https://user-images.githubusercontent.com/96823533/180160327-13afd87c-ca46-41ac-83e9-c24f9e509a4c.jpeg)
 
 
 

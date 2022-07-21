@@ -17,6 +17,7 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 ### Simulation waveform
 
+![out](https://user-images.githubusercontent.com/96823533/180162923-bad31c71-ab80-4282-b5ab-da252ec11da4.JPG)
 
 
 

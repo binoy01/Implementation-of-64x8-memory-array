@@ -40,9 +40,5 @@ This project is  an implementation of a trivial  memory array . User can read fr
 
 
 
-### Efabless link of submitted design
 
- 
- 
- https://platform.efabless.com/projects/1203
 
